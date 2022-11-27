@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    padding-top: 80px;
+}
+header h3{
+    font-size: 24px;
+}
+.container-fluid{
+    width: 100%;
+    padding: 0 120px;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: black;
+}
+.banner-section{
+    padding: 80px 0;
+}
+.influencer{
+    width: 582px;
+    height: 270px;
+}
+.influencer h1{
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+.influencer p{
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+.influencer a{
+    padding: 10px 24px;
+    border-radius: 41px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+}
+.influencer-img{
+    width: 440px;
+    height: 414px;
+    margin-left: 50px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+}
+.products-area h2{
+    color: #3A3A3A;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.products-area{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.products-item{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 16px 14px;
+}
+
+.products-item h3{
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+.products-item p{
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+.products-item ul{
+    display: flex;
+}
+.products-item ul li{
+    list-style: none;
+    color: orange;
+    margin-bottom: 6px;
+}
+.products-item .rattings{
+    color: #5E6366;
+    margin-left: 10px;
+}
+.products-item .buyers-protection{
+    color: #787885;
+    font-size: 14px;
+}
+.products-area .link-button{
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    margin-top: 60px;
+    font-size: 16px;
+    color: #E02C6D;
+}
+.featured{
+    padding-bottom: 50px;
+}
+.featured .row{
+    gap: 90px;
+}
+.featured .featured-content h3{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.featured a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 40px;
+}
